@@ -11,9 +11,9 @@ public class CheckVowelOrConsonant {
         String string;
         string = ch.toLowerCase();
         for (int i = 0; i < string.length(); i++) {
-            char ch1 = string.charAt(i);
+            char character = string.charAt(i);
             /*condition for checking whether a letter is vowel*/
-            if (ch1 == 'a' || ch1 == 'e' || ch1 == 'i' || ch1 == 'o' || ch1 == 'u') {
+            if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u') {
                 return "vowel";
             }
             /*condition for checking whether a letter is consonant*/
